@@ -1,0 +1,10 @@
+[package]
+name = "no_std_test"
+version = "0.1.0"
+authors = ["Tony Arcieri <bascule@gmail.com>"]
+edition = "2018"
+
+[dependencies.curve25519-dalek]
+path = "../curve25519-dalek"
+default-features = false
+features = ["u32_backend"]
